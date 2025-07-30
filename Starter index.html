@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to Globalnet.org - Learn about us." />
+  <meta name="keywords" content="business, services, about us, contact, accessibility" />
+  <meta name="author" content="Globalnet Techno Company" />
+  <title>Globalnet Techno Company</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" /> <!-- Favicon added -->
+</head>
+<body>
+
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" aria-label="About Us Section">About</a></li>
+        <li><a href="#services" aria-label="Our Services Section">Services</a></li>
+        <li><a href="#contact" aria-label="Contact Us Section">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Globalnet Techno Company</h1> <!-- Typo fixed -->
+  </header>
+
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We are a passionate team dedicated to delivering high-quality solutions that make a difference in our community.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article>
+        <h3>Consulting</h3>
+        <p>Expert advice tailored to your business needs.</p>
+      </article>
+      <article>
+        <h3>Web Development</h3>
+        <p>Custom websites and apps built with modern technologies and accessibility in mind.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <form aria-label="Contact form" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Globalnet Techno. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
